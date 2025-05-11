@@ -16,8 +16,8 @@ interface Props {
 }
 
 export function ProductCard({ product }: Props) {
-	const message = `Здравствуйте!\nЯ хочу купить: ${product.name} (${product.storage}, ${product.color}) за ${product.price} сом.`;
-	const telegramLink = `https://t.me/sydykovkanat?text=${encodeURIComponent(message)}`;
+	// const message = `Здравствуйте!\nЯ хочу купить: ${product.name} (${product.storage}, ${product.color}) за ${product.price} сом.`;
+	// const telegramLink = `https://t.me/sydykovkanat?text=${encodeURIComponent(message)}`;
 
 	const { device } = useDevice();
 
